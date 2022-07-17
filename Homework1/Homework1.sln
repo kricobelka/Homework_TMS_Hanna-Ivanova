@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework1", "Homework1.csproj", "{76CD8965-A69D-47D3-92E8-21344E7DC68A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework1", "Homework1.csproj", "{76CD8965-A69D-47D3-92E8-21344E7DC68A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework1b1", "..\Homework1b1\Homework1b1.csproj", "{34109D8A-D61A-44B6-A77A-EDFA4E547660}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework1b1", "..\Homework1b1\Homework1b1.csproj", "{34109D8A-D61A-44B6-A77A-EDFA4E547660}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework1b2", "..\Homework1b2\Homework1b2.csproj", "{A6FA8763-D40B-42D5-B4F1-DE15EBC0A1D2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework1b2", "..\Homework1b2\Homework1b2.csproj", "{A6FA8763-D40B-42D5-B4F1-DE15EBC0A1D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Homework1c", "..\Homework1c\Homework1c.csproj", "{B5200A3F-8519-430D-BD9B-0DD95ACB4066}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework1c", "..\Homework1c\Homework1c.csproj", "{B5200A3F-8519-430D-BD9B-0DD95ACB4066}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
