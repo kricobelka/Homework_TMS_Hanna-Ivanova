@@ -17,7 +17,7 @@ namespace Homework3calc
                     "\td - Divide" + Environment.NewLine +
                     "\tm - Multiply" + Environment.NewLine +
                     "\tmin - Minus" + Environment.NewLine +
-                    "\tc - Clear (AC)" + Environment.NewLine +
+                    //"\tc - Clear (AC)" + Environment.NewLine +
                     "\tr - Remainder (%)");
                 switch (Console.ReadLine())
                 {
