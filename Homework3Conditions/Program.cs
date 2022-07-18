@@ -16,21 +16,29 @@ namespace Homework3Conditions
             {
                 Console.WriteLine($"{num1} and {num2} are more than 100");
             }
-            if (num1 % 2 == 0 || num2 % 2 == 0)
+            //Если только одно из чисел А и В четное  - вывести сообщение "Только одно из чисел А и В четное"
+            if ((num1 % 2 == 0 && num2 % 2 != 0) || (num2 % 2 == 0 && num1 % 2 != 0))
             {
-                Console.WriteLine($"{num1} or {num2} is odd");
+                Console.WriteLine($"Only one of the numbers {num1}, {num2} is even");
             }
-            if (num1 > 0 || num2 > 0) //Если только одно из чисел А и В четное  - вывести сообщение "Только одно из чисел А и В четное"
+            if (num1 > 0 || num2 > 0)
             {
-                Console.WriteLine($"One of the numbers {num1} {num2} is positive");
+                Console.WriteLine($"One of the numbers {num1}, {num2} is positive");
             }
             if (num3 % 3 == 0 && num2 % 3 == 0 && num3 % 3 == 0)
             {
-                Console.WriteLine($"Each of the numbers {num1} {num2} {num3} is divided into 3");
+                Console.WriteLine($"Each of the numbers {num1}, {num2}, {num3} is divided into 3");
             }
-//            Если только одно из чисел А, В и С меньше 50 - вывести сообщение "Только одно из чисел А, В и С меньше 50"
-//Если хотя бы одно из чисел А, В, С отрицательное -вывести сообщение "Одно из чисел А, В, С отрицательное"
-
+            //Если только одно из чисел А, В и С меньше 50 - вывести сообщение "Только одно из чисел А, В и С меньше 50":
+            if ((num1 < 50 && num2 >= 50 && num3 >= 50) || (num2 < 50 && num1 >=50 && num3 >= 50) || (num3 < 50 && num1 >= 50 && num2 >=50))
+            {
+                Console.WriteLine($"Only one of the numbers {num1}, {num2}, {num3} is less than 50");
             }
+            if (num1 < 0 || num2 < 0 || num3 < 0)
+            {
+                Console.WriteLine($"One of the numbers {num1} or {num2} or {num3} is negative");
+            }
+            Console.ReadKey();
         }
     }
+}

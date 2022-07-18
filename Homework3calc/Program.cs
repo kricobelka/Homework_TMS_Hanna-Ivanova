@@ -77,4 +77,4 @@ namespace Homework3calc
         }
     }
 }
-// make culculator app through if-else
+// culculator app through if-else is indicated in homwork3calc2
