@@ -10,7 +10,8 @@ namespace Homework3calc
             int number1 = int.Parse(Console.ReadLine());
             Console.WriteLine("Please type the second number");
             int number2 = int.Parse(Console.ReadLine());
-            //char operation = char.Parse(Console.ReadLine());
+            //int i = 0;
+            // while (i != -1)
             Console.WriteLine("Choose an operation to receive a result:" + Environment.NewLine +
                 "\tp - Plus" + Environment.NewLine +
                 "\td - Divide" + Environment.NewLine +
@@ -18,7 +19,9 @@ namespace Homework3calc
                 "\tmin - Minus" + Environment.NewLine +
                 //"\tc - Clear (AC)" + Environment.NewLine +
                 "\tr - Remainder (%)");
-            switch (Console.ReadLine())
+            //string operation = Console.ReadLine();
+           // switch (operation)
+           switch (Console.ReadLine())
             {
                 case "a":
                     {
