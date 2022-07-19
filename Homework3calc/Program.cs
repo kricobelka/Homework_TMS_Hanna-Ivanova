@@ -75,8 +75,8 @@ namespace Homework3calc
                         Console.WriteLine("Wrong option!");
                         break;
                     }
+                    Console.ReadKey();
             }
-            Console.ReadKey();
         }
     }
 }
