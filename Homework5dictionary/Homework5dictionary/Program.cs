@@ -34,14 +34,13 @@ namespace Homework5dictionary
                     switch (operation)
                     {
                         case 1:
-
                             surname = Console.ReadLine();
                             mark = int.Parse(Console.ReadLine());
                             if (SurnameAndMarks.ContainsKey(surname) && SurnameAndMarks.ContainsValue(mark))
                             {
                                 surname = surnameAndMark.Key;
                                 mark = surnameAndMark.Value;
-                                Console.WriteLine("This pupil is in the list");
+                                Console.WriteLine($"The pupil key: {surname} mark: {mark} is in the list");
                             }
                             else
                             {
@@ -49,10 +48,53 @@ namespace Homework5dictionary
                                 Console.WriteLine($"key:{surname}-value:{mark} has been added");
                             }
                             break;
+                        case 2:
+                            surname = Console.ReadLine();
+                            mark = int.Parse(Console.ReadLine());
+                            if (!SurnameAndMarks.ContainsKey(surname) && !SurnameAndMarks.ContainsValue(mark))
+                            {
+                                surname = surnameAndMark.Key;
+                                mark = surnameAndMark.Value;
+                                Console.WriteLine($"Pupil key: {surname} value: {mark} hasn't been found");
+                            }
+                            else
+                            {
+                                mark = surnameAndMark.Value;
+                                Console.WriteLine($"value:{mark} of key: {surname} has been ");
+                            }
+                            break;
+                        case 3:
+                            surname = Console.ReadLine();
+                            if (SurnameAndMarks.ContainsKey(surname))
+                            {
+                                surname = surnameAndMark.Key;
+                                SurnameAndMarks.Remove(surname);
+                            }
+                            else
+                            {
+                                Console.WriteLine($"key:{surname} hasn't been found in the dictionary!");
+                            }
+                            break;
+                        case 4:
+                            Console.WriteLine(surnameAndMark);
+                            break;
+                        case 5:
+                            mark = surnameAndMark.Value;
+                            int averagemark = mark / 3;
+                            for (mark = 0; mark < surnameAndMark.Value; mark++)
+                            {
+                                //Console.WriteLine($"Average mark of all the pupils is: {averagemark}");
+                            }
+                            Console.WriteLine($"Average mark of all the pupils is: {averagemark}");
+                            break;
+                        case 6:
+                        default:
+                            Console.WriteLine("Please type a valid option");
+                            break;
                     }
-                    // вывести всех:
-                    // почему выводит только первое значение в словаре? Console.WriteLine(surnameAndMark);
-                }
+                // вывести всех:
+                // почему выводит только первое значение в словаре? Console.WriteLine(surnameAndMark);
+            }
 
             }
         }
