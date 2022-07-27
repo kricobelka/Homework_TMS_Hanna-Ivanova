@@ -12,7 +12,10 @@ namespace Homework5dictionary
             {
                 {"Buel", 9},
                 {"Belova", 8},
-                {"Piatrou",7}
+                {"Piatrou",7},
+                //{"Zhukovets", 10},
+                {"Zubovich", 9},
+                {"Rjeutskaya", 6}
             };
             int operation;
             string surname = null;
@@ -81,12 +84,12 @@ namespace Homework5dictionary
                         if (SurnameAndMarks.ContainsKey(surname))
                         {
                             SurnameAndMarks.Remove(surname);
+                            Console.WriteLine(SurnameAndMarks.ContainsKey(surname));
                         }
                         else
                         {
                             Console.WriteLine($"key:{surname} hasn't been found in the dictionary!");
                         }
-                        Console.WriteLine(SurnameAndMarks.ContainsKey(surname));
                         break;
                     }
                 case 4:
@@ -112,33 +115,89 @@ namespace Homework5dictionary
                 case 6:
                     {
                         int max = 0;
-                        //foreach (KeyValuePair<string, int> surnameAndMark in SurnameAndMarks) {
-                            for (mark = 0; mark < SurnameAndMarks[mark]; mark++)
+                        foreach (KeyValuePair<string, int> surnameAndMark in SurnameAndMarks)
+                        {
+                            //for (mark = 0; mark < SurnameAndMarks[mark]; mark++)
+                            if (max <= surnameAndMark.Value)
                             {
-                                if (max <= SurnameAndMarks[mark])
-                                {
-                                    max = mark;
-                                }
-                                foreach (KeyValuePair<string, int> surnameAndMark in SurnameAndMarks)
-                                {
-                                    if (surnameAndMark.Value >= max)
-                                    {
-                                        max = surnameAndMark.Value;
-                                        //surname = surnameAndMark.Key;
-                                        surname = SurnameAndMarks[max];
-                                    }
-                                }
-                                Console.WriteLine($"The highest marks in the class are {max}");
-                                Console.WriteLine($"The highest marks {max} are received by {surname}");
+                                max = surnameAndMark.Value;
                             }
+                        }
+                        Console.WriteLine($"The highest marks in the class are {max}");
+                        foreach (KeyValuePair<string, int> surnameAndMark in SurnameAndMarks)
+                        {
+                            if (max == surnameAndMark.Value)
+                            {
+                                surname = surnameAndMark.Key;
+                                Console.WriteLine($"The highest marks {max} are received by {surname}"); 
+                            }
+                        }
                         break;
                     }
-                            //surname = surnameAndMark.Key;
-                            //int max = 0;
-
-                            //if (max <= surnameAndMark.Value)
-                            //{
-                            //    max = surnameAndMark.Value;
+                case 7:
+                    {
+                        foreach (KeyValuePair<string, int> surnameAndMark in SurnameAndMarks)
+                        {
+                            if (surnameAndMark.Value > 8)
+                            {
+                                surname = surnameAndMark.Key;
+                                Console.WriteLine($"The marks that are more than (8) are {surnameAndMark.Value}");
+                                //mark = surnameAndMark.Value;
+                                Console.WriteLine($"The marks more than (8) {surnameAndMark.Value} have been received by {surname}");
+                            }
+                        }
+                        foreach (KeyValuePair<string, int> surnameAndMark in SurnameAndMarks)
+                        {
+                            if (surnameAndMark.Value == 8)
+                            {
+                                //mark = surnameAndMark.Value;
+                                surname = surnameAndMark.Key;
+                                Console.WriteLine($"The marks that are  equal to (8) are {surnameAndMark.Value}");
+                                Console.WriteLine($"The marks equal to (8) {surnameAndMark.Value} have been received by {surname}");
+                            }
+                        }
+                        //foreach (KeyValuePair<string, int> surnameAndMark in SurnameAndMarks)
+                        //{
+                        //    if (mark == surnameAndMark.Value && mark > surnameAndMark.Value)
+                        //        {
+                        //            surname = surnameAndMark.Key;
+                        //            Console.WriteLine($"The marks equal to or more than 8 {surnameAndMark.Value} have been received by {surname}");
+                        //        }
+                        //}
+                        break;
+                    }
+                case 8:
+                    {
+                        foreach (KeyValuePair<string, int> surnameAndMark in SurnameAndMarks)
+                        {
+                            if (surnameAndMark.Value < 4)
+                            {
+                                surname = surnameAndMark.Key;
+                                Console.WriteLine($"The marks that are less than (4) are {surnameAndMark.Value}");
+                                //mark = surnameAndMark.Value;
+                                Console.WriteLine($"The marks less than (4) {surnameAndMark.Value} have been received by {surname}");
+                            }
+                            else
+                            {
+                                Console.WriteLine("There is no such pupils!");
+                            }
+                        }
+                        foreach (KeyValuePair<string, int> surnameAndMark in SurnameAndMarks)
+                        {
+                            if (surnameAndMark.Value == 4)
+                            {
+                                //mark = surnameAndMark.Value;
+                                surname = surnameAndMark.Key;
+                                Console.WriteLine($"The marks that are  equal to (4) are {surnameAndMark.Value}");
+                                Console.WriteLine($"The marks equal to (4) {surnameAndMark.Value} have been received by {surname}");
+                            }
+                            else
+                            {
+                                Console.WriteLine("There is no such pupils!");
+                            }
+                        }
+                        break;
+                    }
                         default:
                             {
                             Console.WriteLine("Please type a valid option");
