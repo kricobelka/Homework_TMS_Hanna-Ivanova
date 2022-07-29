@@ -10,6 +10,8 @@ namespace HomeworkIphoneclass
             Console.WriteLine(iphone);
             Console.WriteLine($"number: {iphone.Number}, model: {iphone.Model}, weight: {iphone.Weight}");
             iphone.Weight = -7;
+            //iphone.Number = "+483947928";
+            Console.WriteLine($"number: {iphone.Number}, model: {iphone.Model}, weight: {iphone.Weight}");
             Console.WriteLine(iphone.Weight);
             iphone.ReceiveCall("nameofcaller");
 

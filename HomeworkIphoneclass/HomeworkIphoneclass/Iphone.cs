@@ -18,7 +18,7 @@ namespace HomeworkIphoneclass
         public string Number
         {
             get;
-            set;
+            private set;
         }
         public string Model
         {
@@ -31,7 +31,7 @@ namespace HomeworkIphoneclass
             { 
                 return _weight; 
             }
-            set
+             set
             {
                 if (value < 0)
                 {
