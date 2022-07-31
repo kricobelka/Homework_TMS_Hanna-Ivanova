@@ -19,21 +19,24 @@ namespace DictionaryEnum
             };
             string surname = null;
             int mark = 0;
-            int intResponse = 0;
-            while (intResponse != 9)
+            //int intResponse = 0;
+            string stringResponse = null;
+            //while (intResponse != 9);
+           while (stringResponse != "Exit")
             {
                 Console.WriteLine("Choose an option listed below");
-            //foreach (string name in Enum.GetNames(typeof(Menu)))
-            //{
-            //    Console.WriteLine(name);
-            //}
-            foreach (int value in Enum.GetValues(typeof(Menu)))
-            {
-                Console.WriteLine(value);
-            }
-            //string stringResponse = Console.ReadLine();
-            intResponse = int.Parse(Console.ReadLine());
-            Menu operation = (Menu)intResponse;
+                foreach (string name in Enum.GetNames(typeof(Menu)))
+                {
+                    Console.WriteLine(name);
+                }
+                //foreach (int value in Enum.GetValues(typeof(Menu)))
+                //{
+                //    Console.WriteLine(value);
+                //}
+                stringResponse = Console.ReadLine();
+                //intResponse = int.Parse(Console.ReadLine());
+                //Menu operation = (Menu)intResponse;
+                Menu operation = Enum.Parse<Menu>(stringResponse);
                 switch (operation)
                 {
                     case Menu.Add:
@@ -71,9 +74,9 @@ namespace DictionaryEnum
                             else
                             {
                                 SurnameAndMarks[surname] = mark;
-                            }
-                            Console.WriteLine($"value:{mark} of key: {surname} has been updated");
-                            Console.WriteLine($"Pupil key: {surname} value: {mark}");
+                                Console.WriteLine($"value:{mark} of key: {surname} has been updated");
+                                Console.WriteLine($"Pupil key: {surname} value: {mark}");
+                            }      
                             break;
                         }
                     case Menu.Delete:
@@ -168,7 +171,10 @@ namespace DictionaryEnum
                         }
                     case Menu.Exit:
                         {
-                            Console.WriteLine("Exit the program");
+                            //if (operation = 9)
+                            //{
+                            Console.WriteLine(@"Please write 'Exit' to get out of the program");
+                            //}
                             break;
                         }
                     default:

@@ -7,6 +7,7 @@ namespace HomeworkIphoneclass
     public class Iphone
     {
         private double _weight;
+        // все остальные параметры удалили, т.к установили автосвойство
         public Iphone(string number, string model, double weight)
         {
             Number = number;
