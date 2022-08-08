@@ -5,7 +5,7 @@ VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Homework7Drugs", "Homework7Drugs\Homework7Drugs.csproj", "{CC057D3E-0076-4D17-9F62-8C0CD8F1F1F8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fraction", "Fraction\Fraction.csproj", "{76D1B25F-78B2-4A2E-B7B7-40141759B62C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Fraction2", "Fraction2\Fraction2.csproj", "{EB629E2C-DD28-4A6D-879D-010FF950C8B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{CC057D3E-0076-4D17-9F62-8C0CD8F1F1F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC057D3E-0076-4D17-9F62-8C0CD8F1F1F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC057D3E-0076-4D17-9F62-8C0CD8F1F1F8}.Release|Any CPU.Build.0 = Release|Any CPU
-		{76D1B25F-78B2-4A2E-B7B7-40141759B62C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{76D1B25F-78B2-4A2E-B7B7-40141759B62C}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{76D1B25F-78B2-4A2E-B7B7-40141759B62C}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{76D1B25F-78B2-4A2E-B7B7-40141759B62C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB629E2C-DD28-4A6D-879D-010FF950C8B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB629E2C-DD28-4A6D-879D-010FF950C8B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB629E2C-DD28-4A6D-879D-010FF950C8B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB629E2C-DD28-4A6D-879D-010FF950C8B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

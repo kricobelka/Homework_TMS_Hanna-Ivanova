@@ -17,7 +17,7 @@ namespace Fraction
 
         public int Numerator
         {
-            get; private set;
+            get; set;
         }
 
         public int Denumerator
@@ -28,8 +28,8 @@ namespace Fraction
             {
                 if (value < 0)
                 {
-                    _denumerator = 1;
-                    Console.WriteLine("Denumerator must be positive");
+                    _denumerator = Math.Abs(value);
+ 
                 }
                 else
                 {
@@ -37,25 +37,47 @@ namespace Fraction
                 }
             }
         }
-        public int Addition(Fraction fraction1)
+        internal static void Print (Fraction fraction)
         {
-            return Numerator + Denumerator;
+            Console.WriteLine($"The fraction result is { fraction.Numerator / fraction.Denumerator}");
         }
-        // почему все время корректно возвращает, даже если название переменной fraction не совпадает?
-        public int Subtraction(Fraction fractio)
+
+        public static Fraction Addition(Fraction fraction1, Fraction fraction2)
         {
-            if (Numerator < Denumerator)
+            int num = 0;
+            int denum = 0;
+            int nod = 0;
+            var result = new Fraction(num,denum);
+            result.Denumerator = fraction1.Denumerator * fraction2.Denumerator;
+            result.Numerator = (fraction1.Numerator * (result.Denumerator / fraction1.Denumerator)) + (fraction2.Numerator * (result.Denumerator / fraction2.Denumerator));
+            // полуичли результат дроби после сложения и привдеение знаменателей
+            //находим нод результата дроби:
+            for (int i = 1; i < (result.Denumerator / result.Numerator + 1); i++)
             {
-                return Denumerator - Numerator;
+                if (result.Numerator % i == 0 && result.Denumerator % i == 0)
+                {
+                    nod = i;
+                    num = result.Numerator;
+                    denum = result.Denumerator;
+                }
             }
-            else if (Numerator > Denumerator)
-            {
+            //is it necessary to relate num and denum to result umerator and denumerator?
+            //no
+            //num = result.Numerator;
+            //denum = result.Denumerator;
+            //num = result.Numerator  / nod;
+            //denum = result.Denumerator / nod;
+            num /= nod;
+            denum /= nod;
+            //resultfraction = num / denum;
+            //Console.WriteLine(resultfraction);
+            return result;
+        }
+
+        // почему все время корректно возвращает, даже если название переменной fraction не совпадает?
+        public int Subtraction(Fraction fraction)
+        {
                 return Numerator - Denumerator;
-            }
-            else
-            {
-                return Numerator - Denumerator;
-            }
         }
         public double Division(Fraction fraction1)
         {

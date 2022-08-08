@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Homework7Drugs
 {
-    internal class Medicine
+    internal abstract class Medicine
     {
         // удаляем поля где установили автосвойство (name)
         //private string _name;
@@ -45,9 +45,7 @@ namespace Homework7Drugs
             //Console.WriteLine(Name, Cost);
             Console.WriteLine($"Name of medicine is {Name}, cost of medicine is {Cost} dollars.");
         }
-        public virtual void WayOfApplication()
-        {
-            Console.WriteLine($"Medicine can be used either for internal or external use.");
-        }
+        public abstract void WayOfApplication();
+        
     }
 }

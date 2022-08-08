@@ -7,8 +7,9 @@ namespace Homework7Drugs
         static void Main(string[] args)
         {
             Console.WriteLine("Medicine:");
-            Medicine medicine = new Medicine("Medicine", 0);
+            Medicine medicine = new Ointment("Ointment", 0, "fds");
             medicine.WayOfApplication();
+            Ointment o1 = (Ointment)medicine;
             Medicine medicine1 = new Ointment("Ointment", 8, "without smell");
                                     //Console.WriteLine($"1. Ointment:");
                                     //medicine1.Print();
