@@ -25,7 +25,7 @@ namespace ImplementationOfTaxiApp
         public double MakePayment(double money);
 
         public double AddMoney(double money);
-        bool ContainsValue(string cardnumber);
+
 
         //public double Print();
 

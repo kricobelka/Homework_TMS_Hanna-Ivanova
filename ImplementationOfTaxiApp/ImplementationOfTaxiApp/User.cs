@@ -9,16 +9,18 @@ namespace ImplementationOfTaxiApp
         private string _username;
         private string _surname;
         private string _phone;
-        private Dictionary<string, IPaymentMethod> _paymentMethods = new Dictionary<string, IPaymentMethod>();
+        private Dictionary<string, IPaymentMethod> _paymentMethods;
 
-        public User(string username, string surname, string phone, Dictionary<string, IPaymentMethod> paymentMethods)
+        public User(string username, string surname, string phone, double initialCash)
+            //в конструктор также надо добавить Dictionary, verno?
         {
             Username = username;
             Surname = surname;
             Phone = phone;
             //PaymentMethods = paymentMethods;
-            paymentMethods.Add("Cash", new Cash());
-            paymentMethods.Add("Points", new Points());
+            PaymentMethods.Add("Cash", initialCash);
+            PaymentMethods.Add("Points", 0);
+            //в дикшинари свойство сначала стриг, потом метод платежа, почему мы должны писать вместо метожы сумму денег?
         }
 
         public string Username { get; set; }
@@ -62,7 +64,8 @@ namespace ImplementationOfTaxiApp
             }
             else
             {
-                PaymentMethods.Add(cardName, Card obj);
+                Console.WriteLine("You didn't add the card yet.");
+                //PaymentMethods.Add(cardName, Card obj);
                 // можно ил добавить карту в этом методе если ее не существут?
             }
         }
@@ -95,7 +98,7 @@ namespace ImplementationOfTaxiApp
                 Console.WriteLine(paymentmethod);
             }
         }
-
+        //или:
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
