@@ -16,7 +16,7 @@ namespace Fraction
             //Console.WriteLine($"The fractions in double is {Fraction.ToDecimal (fraction1)} and {Fraction.ToDecimal(fraction2)}.");
 
             Fraction.Print(Fraction.Multiplication(fraction1, fraction2));
-            // kak вывести multiplication через переменную, если есть классы?
+            // kak вывести multiplication через переменную, если есть класс Fraction?
             // привести класс к дабл?
 
             Fraction.Print (Fraction.Division (fraction1, fraction2));
