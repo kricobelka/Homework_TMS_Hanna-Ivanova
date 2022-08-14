@@ -8,7 +8,7 @@ namespace ImplementationOfTaxiApp
     {
         public void MakeRide (User user)
         {
-            Console.WriteLine($"{username}, {surname}\n used");
+            Console.WriteLine($"{user.Username}, {user.Surname}\n used");
         }
         public static double GetPriceOfRide ()
         {

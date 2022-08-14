@@ -9,8 +9,8 @@ namespace ImplementationOfTaxiApp
         public Points(double pointsOnAccount)
         {
             PointsOnAccount = pointsOnAccount;
-            //AmountofSum = amountofSum;
         }
+        //pointsonaccot initial = 0
 
         public double AmountofSum { get; set; }
         public double PointsOnAccount

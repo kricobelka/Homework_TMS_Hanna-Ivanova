@@ -7,13 +7,12 @@ namespace ImplementationOfTaxiApp
     internal class Card : IPaymentMethod
     {
         private string _cardnumber;
-        //private double _amountOnCard;
 
-        public Card(string cardnumber, double amountOnCard)
-        {
-            CardNumber = cardnumber;
-            AmountOnCard = amountOnCard;
-        }
+        //public Card(string cardnumber, double amountOnCard)
+        //{
+        //    CardNumber = cardnumber;
+        //    AmountOnCard = amountOnCard;
+        //}
         public string CardNumber
         {
             get
@@ -22,21 +21,20 @@ namespace ImplementationOfTaxiApp
             }
             set
             {
-                if (value == "")
-                {
-                    Console.WriteLine("Please set your cardnumber");
-                    _cardnumber = Console.ReadLine();
+                //if (value == "")
+                //{
+                    //Console.WriteLine("Please set your cardnumber");
+                    //_cardnumber = Console.ReadLine();
                     _cardnumber = value;
 
-                }
-                else
-                {
-                    _cardnumber = value;
-                }
+                //}
+                //else
+                //{
+                //    _cardnumber = value;
+                //}
             }
         }
         public double AmountOnCard { get; set; }
-
 
         public bool IsPaymentPossible(double money)
         {

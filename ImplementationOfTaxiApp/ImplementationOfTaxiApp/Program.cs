@@ -11,12 +11,12 @@ namespace ImplementationOfTaxiApp
             //Cash cash = new Cash(26.3d);
             //Points points = new Points(0);
 
-            //Dictionary<IPaymentMethod, double> paymentMethods = new Dictionary<IPaymentMethod, double>
-            //{
-            //    { "Cash", 0},
-            //    {"Card", 0},
-            //    {"Points",0}
-            //};
+            Dictionary<IPaymentMethod, double> paymentMethods = new Dictionary<IPaymentMethod, double>
+            {
+                {"Cash", 0},
+                {"Card", 0},
+                {"Points",0}
+            };
             List<ITaxi> taxiTypes = new List<ITaxi>()
             {
                 new Car("664AC",549.3d,"MAZDA", "black", 259.5d),
@@ -27,6 +27,55 @@ namespace ImplementationOfTaxiApp
             
             User user = new User("Hanna", "Ivanova", "+375293833758", 0);
 
+            //menu:
+            int menu = 0;
+            while (menu != 4)
+            {
+                Console.WriteLine("\t1. Add a card." + Environment.NewLine +
+                "\t2.Top up card." + Environment.NewLine +
+                "\t3.Process the trip" + Environment.NewLine +
+                "\t4. Nothing. Exit from the app.");
+
+                Console.WriteLine("Please select the item.");
+                menu = int.Parse(Console.ReadLine());
+
+                switch (menu)
+                {
+                    case 1:
+                        {
+                            Console.WriteLine($"Please create a card name");
+                            string cardName = Console.ReadLine();
+                            Console.WriteLine("PLease indicate number of the card (requisites)");
+                            string cardNumber = Console.ReadLine();
+                            Console.WriteLine("Please type value of sum you want to top up the card");
+                            double sumOfMoney = double.Parse(Console.ReadLine());
+                            user.AddCard(cardName, new Card() { CardNumber = cardNumber });
+                            //user.ToUpCard(cardName, sumOfMoney);
+                            break;
+                        }
+
+                    case 2:
+                        {
+                            Console.WriteLine("Please insert number of card you want to top up");
+                            string cardNumber = Console.ReadLine();
+                            Console.WriteLine("Please type value of sum you want to top up the card");
+                            double sumOfMoney = double.Parse(Console.ReadLine());
+                            user.ToUpCard(cardNumber, sumOfMoney);
+                            break;
+                        }
+
+                    case 3:
+                        {
+                            foreach (ITaxi taxitype in taxiTypes)
+                            {
+                                //Console.WriteLine($"Available taxi types: {taxitype}\n");
+                                Console.WriteLine($"Available taxi types + {taxitype.ToString()}\n");
+
+                            }
+                            
+                        }
+                }
+            }
         }
     }
 }

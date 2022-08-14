@@ -23,7 +23,7 @@ namespace ImplementationOfTaxiApp
         {
             //StringBuilder stringBuilder = new StringBuilder();
 
-            return "Car:" + StateNumber + " " + FuelConsumption + " " + Brand + " " + Color + " " + MaxSpeed;
+            return "1. Car:" + StateNumber + " " + FuelConsumption + " " + Brand + " " + Color + " " + MaxSpeed;
         }
     }
 }
