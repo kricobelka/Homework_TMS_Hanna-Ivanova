@@ -11,11 +11,11 @@ namespace ImplementationOfTaxiApp
             //Cash cash = new Cash(26.3d);
             //Points points = new Points(0);
 
-            Dictionary<IPaymentMethod, double> paymentMethods = new Dictionary<IPaymentMethod, double>
+            Dictionary<string, IPaymentMethod> paymentMethods = new Dictionary<string, IPaymentMethod>
             {
-                {"Cash", 0},
-                {"Card", 0},
-                {"Points",0}
+                {"Cash", Cash},
+                {"Card", Card},
+                {"Points", Points}
             };
             List<ITaxi> taxiTypes = new List<ITaxi>()
             {
@@ -25,7 +25,7 @@ namespace ImplementationOfTaxiApp
             };
             //как добавить параметры, если последним параметром является Dictionary?
             
-            User user = new User("Hanna", "Ivanova", "+375293833758", 0);
+            User user = new User("Hanna", "Ivanova", "+375293833758", Dictionary<"Card", Card);
 
             //menu:
             int menu = 0;

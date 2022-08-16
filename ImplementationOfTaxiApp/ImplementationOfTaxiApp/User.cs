@@ -11,7 +11,7 @@ namespace ImplementationOfTaxiApp
         private string _phone;
         private Dictionary<string, IPaymentMethod> _paymentMethods;
 
-        public User(string username, string surname, string phone, double initialCash)
+        public User(string username, string surname, string phone, Dictionary<string, IPaymentMethod> paymentMethods)
             //в конструктор также надо добавить Dictionary, verno?
         {
             Username = username;
@@ -20,7 +20,7 @@ namespace ImplementationOfTaxiApp
             //PaymentMethods = paymentMethods;
             PaymentMethods.Add("Cash", new Cash(0));
             PaymentMethods.Add("Points", new Points(0));
-            //в дикшинари свойство сначала стриг, потом метод платежа, почему мы должны писать вместо метожы сумму денег?
+            //в дикшинари свойство сначала стриг, потом метод платежа, почему мы должны писать вместо метода сумму денег?
         }
 
         public string Username { get; set; }
