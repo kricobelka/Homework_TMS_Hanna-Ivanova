@@ -35,6 +35,8 @@ namespace ImplementationOfTaxiApp
         }
         public double MaxSpeed { get; }
 
+        
+
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();

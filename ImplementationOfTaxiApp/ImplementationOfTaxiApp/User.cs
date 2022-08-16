@@ -9,15 +9,16 @@ namespace ImplementationOfTaxiApp
         private string _username;
         private string _surname;
         private string _phone;
-        private Dictionary<string, IPaymentMethod> _paymentMethods;
+        private Dictionary<string, IPaymentMethod> _paymentMethods = new Dictionary<string, IPaymentMethod>();
 
-        public User(string username, string surname, string phone, Dictionary<string, IPaymentMethod> paymentMethods)
+        public User(string username, string surname, string phone)
             //в конструктор также надо добавить Dictionary, verno?
         {
             Username = username;
             Surname = surname;
             Phone = phone;
             //PaymentMethods = paymentMethods;
+            PaymentMethods.Add("Card", new Card(18.5d));
             PaymentMethods.Add("Cash", new Cash(0));
             PaymentMethods.Add("Points", new Points(0));
             //в дикшинари свойство сначала стриг, потом метод платежа, почему мы должны писать вместо метода сумму денег?
@@ -27,19 +28,19 @@ namespace ImplementationOfTaxiApp
 
         public string Surname { get; set; }
 
-        public string Phone
+        public string Phone 
         {
             get
             {
                 return _phone;
             }
-            set
+    set
             {
-                Phone = value;
+                _phone = value;
             }
         }
 
-        public Dictionary<string, IPaymentMethod> PaymentMethods
+    public Dictionary<string, IPaymentMethod> PaymentMethods
         {
             get
             {

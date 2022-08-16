@@ -10,9 +10,9 @@ namespace ImplementationOfTaxiApp
         {
             Console.WriteLine($"{user.Username}, {user.Surname}\n used");
         }
-        public static double GetPriceOfRide ()
+        public double GetPriceOfRide ()
         {
-            return 14.5;
+            return 14.5d;
         }
     }
 }

@@ -23,7 +23,7 @@ namespace ImplementationOfTaxiApp
         {
             StringBuilder stringBuilder = new StringBuilder();
 
-            stringBuilder.Append($"3. Motorbike:\n {StateNumber}\n {FuelConsumption}\n {Brand}\n {Acceleration}\n {MaxSpeed}");
+            stringBuilder.Append($"3. Motorbike:\n Statenumber: {StateNumber}\n FuelCOnsumption: {FuelConsumption}\n Brand: {Brand}\n Acceleration:{Acceleration}\n MaxSpeed: {MaxSpeed}");
             return stringBuilder.ToString();
         }
     }

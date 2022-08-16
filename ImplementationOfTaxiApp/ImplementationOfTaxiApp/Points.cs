@@ -6,6 +6,7 @@ namespace ImplementationOfTaxiApp
 {
     internal class Points : IPaymentMethod
     {
+        private double _pointsOnAccount;
         public Points(double pointsOnAccount)
         {
             PointsOnAccount = pointsOnAccount;
@@ -15,10 +16,10 @@ namespace ImplementationOfTaxiApp
         public double AmountofSum { get; set; }
         public double PointsOnAccount
         {
-            get => PointsOnAccount;
+            get => _pointsOnAccount;
             set
             {
-                PointsOnAccount = value;
+                _pointsOnAccount = value;
             }
             //get;set; - the same as expression abve?
         }

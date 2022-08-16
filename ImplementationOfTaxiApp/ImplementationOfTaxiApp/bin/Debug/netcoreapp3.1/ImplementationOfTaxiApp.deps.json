@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "ImplementationOfTaxiApp/1.0.0": {
+        "runtime": {
+          "ImplementationOfTaxiApp.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ImplementationOfTaxiApp/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

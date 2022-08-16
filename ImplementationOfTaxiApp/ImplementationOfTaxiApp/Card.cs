@@ -8,11 +8,11 @@ namespace ImplementationOfTaxiApp
     {
         private string _cardnumber;
 
-        //public Card(string cardnumber, double amountOnCard)
-        //{
-        //    CardNumber = cardnumber;
-        //    AmountOnCard = amountOnCard;
-        //}
+        public Card(double amountOnCard)
+        {
+            AmountOnCard = amountOnCard;
+        }
+
         public string CardNumber
         {
             get
