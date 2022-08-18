@@ -7,10 +7,10 @@ namespace ImplementationOfTaxiApp
     internal class Points : IPaymentMethod
     {
         private double _pointsOnAccount;
-        public Points(double pointsOnAccount)
-        {
-            PointsOnAccount = pointsOnAccount;
-        }
+        //public Points(double pointsOnAccount)
+        //{
+        //    PointsOnAccount = pointsOnAccount;
+        //}
         //pointsonaccot initial = 0
 
         public double AmountofSum { get; set; }

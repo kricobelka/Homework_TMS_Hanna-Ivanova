@@ -19,11 +19,22 @@ namespace ImplementationOfTaxiApp
 
         public string Brand { get; }
 
+        public double GetPriceOfRide()
+        {
+            return 19.7d;
+        }
+
+        public void MakeRide(User user)
+        {
+            
+        }
+
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
 
-            stringBuilder.Append($"3. Motorbike:\n Statenumber: {StateNumber}\n FuelCOnsumption: {FuelConsumption}\n Brand: {Brand}\n Acceleration:{Acceleration}\n MaxSpeed: {MaxSpeed}");
+            stringBuilder.Append($"Motorbike:\n Statenumber: {StateNumber}\n FuelCOnsumption: {FuelConsumption}\n Brand: {Brand}\n Acceleration:{Acceleration}\n MaxSpeed: {MaxSpeed}");
+            stringBuilder.Append (GetPriceOfRide());
             return stringBuilder.ToString();
         }
     }

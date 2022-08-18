@@ -2,16 +2,18 @@
 using System.Collections.Generic;
 using System.Text;
 
+
 namespace ImplementationOfTaxiApp
 {
     internal class Card : IPaymentMethod
     {
         private string _cardnumber;
+        private double _amountOnCard;
 
-        public Card(double amountOnCard)
-        {
-            AmountOnCard = amountOnCard;
-        }
+        //public Card(double amountOnCard)
+        //{
+        //    AmountOnCard = amountOnCard;
+        //}
 
         public string CardNumber
         {
@@ -34,7 +36,14 @@ namespace ImplementationOfTaxiApp
                 //}
             }
         }
-        public double AmountOnCard { get; set; }
+        public double AmountOnCard
+        {
+            get => _amountOnCard;
+            set
+            {
+                _amountOnCard = value;
+            }
+        }
 
         public bool IsPaymentPossible(double money)
         {
@@ -67,9 +76,14 @@ namespace ImplementationOfTaxiApp
             }
         }
 
-        //public double Print()
-        //{
-        //    return AmountOnCard;
-        //}
-    }
+
+            //public override string ToString()
+            //{
+            //    return StringBuilder.
+            //}
+            //public double Print()
+            //{
+            //    return AmountOnCard;
+            //}
+        }
 }

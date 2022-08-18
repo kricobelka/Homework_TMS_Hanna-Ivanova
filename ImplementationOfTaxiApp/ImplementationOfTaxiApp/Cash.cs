@@ -6,13 +6,13 @@ namespace ImplementationOfTaxiApp
 {
     internal class Cash : IPaymentMethod
     {
-        public Cash(double cashOnHand)
-        {
-            CashOnHand = cashOnHand;
-        }
+        //public Cash(double cashOnHand)
+        //{
+        //    CashOnHand = cashOnHand;
+        //}
 
         public double CashOnHand { get; set; }
-
+        //можем ли мы в свойстве установить начальное значение 0? если установим , оно не будет постоянно ноль?
         public double AddMoney(double money)
         {
             CashOnHand += money;

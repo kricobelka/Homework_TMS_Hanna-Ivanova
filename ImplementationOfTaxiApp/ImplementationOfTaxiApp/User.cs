@@ -18,10 +18,9 @@ namespace ImplementationOfTaxiApp
             Surname = surname;
             Phone = phone;
             //PaymentMethods = paymentMethods;
-            PaymentMethods.Add("Card", new Card(18.5d));
-            PaymentMethods.Add("Cash", new Cash(0));
-            PaymentMethods.Add("Points", new Points(0));
-            //в дикшинари свойство сначала стриг, потом метод платежа, почему мы должны писать вместо метода сумму денег?
+            PaymentMethods.Add("Card", new Card());
+            PaymentMethods.Add("Cash", new Cash());
+            PaymentMethods.Add("Points", new Points());
         }
 
         public string Username { get; set; }
@@ -54,10 +53,6 @@ namespace ImplementationOfTaxiApp
 
         public void ToUpCard(string cardName, double cardMoney)
         {
-            //Console.WriteLine($"Please type card number  you want to top up");
-            //cardName = Console.ReadLine();
-            //Console.WriteLine($"Please type  amount of money you want to top up");
-            //cardMoney = double.Parse(Console.ReadLine());
             if (PaymentMethods.ContainsKey(cardName))
             {
                 PaymentMethods[cardName].AddMoney(cardMoney);

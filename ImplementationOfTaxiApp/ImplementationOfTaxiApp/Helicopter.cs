@@ -35,13 +35,21 @@ namespace ImplementationOfTaxiApp
         }
         public double MaxSpeed { get; }
 
-        
+        public double GetPriceOfRide()
+        {
+            return 61.5d;
+        }
+
+        public void MakeRide(User user)
+        {
+            //Console.WriteLine($"{user.}");
+        }
 
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
 
-            stringBuilder.Append($"2. Helicopter: {StateNumber}, {FuelConsumption}, {Brand}, {Weight}, {MaxSpeed}");
+            stringBuilder.Append($"Helicopter: {StateNumber}, {FuelConsumption}, {Brand}, {Weight}, {MaxSpeed}");
             return stringBuilder.ToString();
         }
     }

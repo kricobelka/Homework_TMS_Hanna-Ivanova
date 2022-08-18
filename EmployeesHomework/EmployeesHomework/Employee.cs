@@ -46,10 +46,9 @@ namespace EmployeesHomework
                     salary = (employee.Experience + 1) * 1250;
                     Console.WriteLine($"{employee.Name} salary is {salary}");
                 }
-
                 else if (!employee.HigherEducation)
                 {
-                    salary = (employee.Experience + 1) * 1250;
+                    salary = (employee.Experience + 1) * 1000;
                     Console.WriteLine($"{employee.Name} salary is {salary}");
                 }
             }
@@ -57,14 +56,15 @@ namespace EmployeesHomework
 
         public delegate int DelegateCountSalary(Employee employee);
 
-        public static void CountSalary2 (List<Employee> employeeList, DelegateCountSalary delegate1)
-        {
 
-            //int salary = delegate1 (List<Employee>employeeList)
-            //delegate1.Invoke (CountSalary)
-            foreach (Employee employee in employeeList)
+        public static void CountSalaryWithDelegate (List<Employee> employeeList, DelegateCountSalary salaryWithDelegate)
+        {
+            foreach (var employee in employeeList)
             {
-                delegate1(employee);
+                //не понятна след строчка:
+                int salary = salaryWithDelegate(employee);
+                Console.WriteLine($"{employee.Name} salary is {salary}");
+
             }
         }
     }

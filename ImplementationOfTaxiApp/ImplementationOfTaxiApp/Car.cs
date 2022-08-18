@@ -19,11 +19,20 @@ namespace ImplementationOfTaxiApp
 
         public double MaxSpeed { get; set; }
 
+        public double GetPriceOfRide()
+        {
+            return 20.5d;
+        }
+
+        public void MakeRide(User user)
+        {
+        }
+
         public override string ToString()
         {
             //StringBuilder stringBuilder = new StringBuilder();
 
-            return "1. Car:" + StateNumber + " " + FuelConsumption + " " + Brand + " " + Color + " " + MaxSpeed;
+            return "Car:" + StateNumber + " " + FuelConsumption + " " + Brand + " " + Color + " " + MaxSpeed;
         }
     }
 }

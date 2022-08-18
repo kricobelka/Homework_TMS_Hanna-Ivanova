@@ -47,23 +47,26 @@ namespace ImplementationOfTaxiApp
                             string cardName = Console.ReadLine();
                             Console.WriteLine("PLease indicate number of the card (requisites)");
                             string cardNumber = Console.ReadLine();
+                            //Console.WriteLine("Please type value of sum you want to top up the card");
+                            //double sumOfMoney = double.Parse(Console.ReadLine());
+                            //user.AddCard(cardName, new Card(sumOfMoney) { CardNumber = cardNumber});
+                            user.AddCard(cardName, new Card() { CardNumber = cardNumber});
+                            Console.WriteLine($"New card {cardName},{cardNumber} has been added to the user data.");
                             Console.WriteLine("Please type value of sum you want to top up the card");
                             double sumOfMoney = double.Parse(Console.ReadLine());
-                            user.AddCard(cardName, new Card(sumOfMoney) { CardNumber = cardNumber});
-                            Console.WriteLine($"{sumOfMoney} has been added on {cardName}, {cardNumber}.");
-                            //user.ToUpCard(cardName, sumOfMoney);
-                            
+                            user.ToUpCard(cardName, sumOfMoney);
+                            Console.WriteLine($"Info: {user.ToString()}");
                             break;
                         }
 
                     case 2:
                         {
-                            Console.WriteLine("Please insert number of card you want to top up");
+                            Console.WriteLine("Please insert name(key) of card you want to top up");
                             string cardName = Console.ReadLine();
                             Console.WriteLine("Please type value of sum you want to top up the card");
                             double sumOfMoney = double.Parse(Console.ReadLine());
                             user.ToUpCard(cardName, sumOfMoney);
-                            user.ToString();
+                            //user.ToString();
                             break;
                         }
 
@@ -73,14 +76,15 @@ namespace ImplementationOfTaxiApp
                             foreach (ITaxi taxitype in taxiTypes)
                             {
                                 //Console.WriteLine($"Available taxi types: {taxitype}\n");
-                                Console.WriteLine($"{counter}. Available taxi types + {taxitype.ToString()}\n");
+                                Console.WriteLine($"{counter}. Available taxi types: {taxitype.ToString()}\n");
                                 counter++;
                             }
                             Console.WriteLine("Please choose the number of the desired type of transport");
                             int typeOfTransport = int.Parse(Console.ReadLine());
                             double priceOfRide = taxiTypes[typeOfTransport-1].GetPriceOfRide();
-                            Console.WriteLine("Insert the way of payment");
-                            user.ToString();
+                            Console.WriteLine($"Price of ride on {typeOfTransport} is {priceOfRide}");
+                            Console.WriteLine($"The paymentmethods of {user.Username}, {user.Phone} available are {user.PaymentMethods.ToString()}" + Environment.NewLine +
+                            "Insert the desired way of payment:");
                             string paymentmethod = Console.ReadLine();
 
                             if (user.PaymentMethods[paymentmethod].IsPaymentPossible(priceOfRide))
@@ -91,7 +95,7 @@ namespace ImplementationOfTaxiApp
 
                             else
                             {
-                                Console.WriteLine("Lack of money!");
+                                Console.WriteLine("Lack of money or payment method is not available.");
                             }
 
                             break;

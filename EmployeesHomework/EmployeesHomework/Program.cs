@@ -5,6 +5,8 @@ namespace EmployeesHomework
 {
     internal class Program
     {
+        //public delegate int DelegateCountSalary(Employee employee);
+
         static void Main(string[] args)
         {
             List<Employee> employeelist = new List<Employee>()
@@ -15,8 +17,29 @@ namespace EmployeesHomework
                 new Employee ("Maria", 23, 3, true),
                 new Employee ("Kevin", 31, 4, false)
             };
+
+            Console.WriteLine("Count without delegate:\n");
             Employee.CountSalary(employeelist);
 
+            Console.WriteLine("\nCount with delegate:\n");
+            Employee.CountSalaryWithDelegate(employeelist, CountSalaryWithDelegate1);
+
+
+            static int CountSalaryWithDelegate1(Employee employee)
+            {
+                int salary = 0;
+                if (employee.HigherEducation)
+                {
+                    salary = (employee.Experience + 1) * 1000;
+                }
+                else if (!employee.HigherEducation)
+                {
+                    salary = (employee.Experience + 1) * 700;
+                }
+                return salary;
+            }
+  
+            //Employee.CountSalaryWithDelegate(employeelist, salaryWithDelegate);
             
         }
     }

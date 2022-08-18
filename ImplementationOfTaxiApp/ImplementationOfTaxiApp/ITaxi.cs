@@ -6,13 +6,7 @@ namespace ImplementationOfTaxiApp
 {
     internal interface ITaxi
     {
-        public void MakeRide (User user)
-        {
-            Console.WriteLine($"{user.Username}, {user.Surname}\n used");
-        }
-        public double GetPriceOfRide ()
-        {
-            return 14.5d;
-        }
+        public void MakeRide(User user);
+        public double GetPriceOfRide();
     }
 }
