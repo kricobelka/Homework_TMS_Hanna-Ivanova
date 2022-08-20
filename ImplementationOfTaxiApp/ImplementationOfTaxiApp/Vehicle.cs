@@ -24,6 +24,7 @@ namespace ImplementationOfTaxiApp
         }
         public double FuelConsumption { get => _fuelconsumption; }
         // это то же самое что и public double FuelConsumption { get;}?
-        public string StateNumber { get; }
+        //public string StateNumber { get; }
+        public string StateNumber { get => _statenumber; }
     }
 }

@@ -58,9 +58,9 @@ namespace ImplementationOfTaxiApp
             }
         }
 
-        //public double Print()
-        //{
-        //    return PointsOnAccount;
-        //}
+        public override string ToString()
+        {
+            return PointsOnAccount.ToString();
+        }
     }
 }

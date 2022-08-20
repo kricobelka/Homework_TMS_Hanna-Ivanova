@@ -26,13 +26,14 @@ namespace ImplementationOfTaxiApp
 
         public void MakeRide(User user)
         {
+            Console.WriteLine($"The request for ride is accepted.");
         }
 
         public override string ToString()
         {
             //StringBuilder stringBuilder = new StringBuilder();
 
-            return "Car:" + StateNumber + " " + FuelConsumption + " " + Brand + " " + Color + " " + MaxSpeed;
+            return "\nCar:" + "\nState number:" + StateNumber + "," + "Fuel consumption:" + FuelConsumption + "," + "Brand:" + Brand + "," + "Color" + Color + "," + MaxSpeed + "," + "Price of ride:" + GetPriceOfRide();
         }
     }
 }

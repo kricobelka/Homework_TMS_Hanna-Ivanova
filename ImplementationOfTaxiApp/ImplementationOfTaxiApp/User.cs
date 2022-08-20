@@ -12,7 +12,7 @@ namespace ImplementationOfTaxiApp
         private Dictionary<string, IPaymentMethod> _paymentMethods = new Dictionary<string, IPaymentMethod>();
 
         public User(string username, string surname, string phone)
-            //в конструктор также надо добавить Dictionary, verno?
+        //в конструктор также надо добавить Dictionary, verno?
         {
             Username = username;
             Surname = surname;
@@ -27,19 +27,19 @@ namespace ImplementationOfTaxiApp
 
         public string Surname { get; set; }
 
-        public string Phone 
+        public string Phone
         {
             get
             {
                 return _phone;
             }
-    set
+            set
             {
                 _phone = value;
             }
         }
 
-    public Dictionary<string, IPaymentMethod> PaymentMethods
+        public Dictionary<string, IPaymentMethod> PaymentMethods
         {
             get
             {
@@ -74,10 +74,11 @@ namespace ImplementationOfTaxiApp
             Console.WriteLine($"Your current balance of cash is {cashMoney}");
         }
 
-        public void AddCard(string cardnumber, Card cardobj)
+        public void AddCard(string cardName, Card newCard)
         {
-            PaymentMethods.Add(cardnumber, cardobj);
-            Console.WriteLine($"{cardobj} has been added");
+            PaymentMethods.Add(cardName, newCard);
+
+            //Console.WriteLine($"{newCard.ToString()} has been added");
         }
 
         //////как поймет что мы переопределяем у классов?
@@ -87,21 +88,22 @@ namespace ImplementationOfTaxiApp
         //    return stringBuilder.ToString();
         //}
 
-        //public void ShowAvailableMethods()
-        //{
-        //    foreach (var paymentmethod in PaymentMethods)
-        //    {
-        //        Console.WriteLine(paymentmethod);
-        //    }
-        //}
+        public void ShowAvailableMethods()
+        {
+            foreach (var paymentmethod in PaymentMethods)
+            {
+                Console.WriteLine(paymentmethod);
+            }
+        }
         ////или:
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
             foreach (var paymentmethod in PaymentMethods)
             {
-                stringBuilder.Append ($"{paymentmethod.Key} --- {paymentmethod.Value}");
-                stringBuilder.Append (Environment.NewLine);
+                stringBuilder.Append(Environment.NewLine);
+                stringBuilder.Append($"{paymentmethod.Key} --- {paymentmethod.Value}");
+                //stringBuilder.Append(Environment.NewLine);
             }
             return stringBuilder.ToString();
         }

@@ -23,7 +23,6 @@ namespace ImplementationOfTaxiApp
                 new Helicopter("665TU", 5003.8d, "VERTAL", 208d, 1390.4d),
                 new Motorbike("666CI", 560d, 304.7d, 7.0d, "YAMAHA"),
             };
-            //как добавить параметры, если последним параметром является Dictionary?
             
             User user = new User("Hanna", "Ivanova", "+375293833758");
             
@@ -50,12 +49,14 @@ namespace ImplementationOfTaxiApp
                             //Console.WriteLine("Please type value of sum you want to top up the card");
                             //double sumOfMoney = double.Parse(Console.ReadLine());
                             //user.AddCard(cardName, new Card(sumOfMoney) { CardNumber = cardNumber});
-                            user.AddCard(cardName, new Card() { CardNumber = cardNumber});
+                            user.AddCard(cardName, new Card() {CardNumber = cardNumber});
                             Console.WriteLine($"New card {cardName},{cardNumber} has been added to the user data.");
-                            Console.WriteLine("Please type value of sum you want to top up the card");
-                            double sumOfMoney = double.Parse(Console.ReadLine());
-                            user.ToUpCard(cardName, sumOfMoney);
-                            Console.WriteLine($"Info: {user.ToString()}");
+                            //Console.WriteLine("Please type value of sum you want to top up the card");
+                            //double sumOfMoney = double.Parse(Console.ReadLine());
+                            //user.ToUpCard(cardName, sumOfMoney);
+                            Console.WriteLine($"Available payment method of {user.Username}, {user.Surname} are:");
+                            //user.ShowAvailableMethods();
+                            user.ToString();
                             break;
                         }
 
@@ -66,6 +67,8 @@ namespace ImplementationOfTaxiApp
                             Console.WriteLine("Please type value of sum you want to top up the card");
                             double sumOfMoney = double.Parse(Console.ReadLine());
                             user.ToUpCard(cardName, sumOfMoney);
+                            Console.WriteLine($"Available payment method of {user.Username}, {user.Surname} are:");
+                            user.ShowAvailableMethods();
                             //user.ToString();
                             break;
                         }
@@ -75,16 +78,16 @@ namespace ImplementationOfTaxiApp
                             int counter = 1;
                             foreach (ITaxi taxitype in taxiTypes)
                             {
-                                //Console.WriteLine($"Available taxi types: {taxitype}\n");
-                                Console.WriteLine($"{counter}. Available taxi types: {taxitype.ToString()}\n");
+                                //Console.WriteLine($"Available taxi types: {taxitype}\n"); or:
+                                Console.WriteLine($"{counter}. Available taxi type: {taxitype.ToString()}\n");
                                 counter++;
                             }
                             Console.WriteLine("Please choose the number of the desired type of transport");
                             int typeOfTransport = int.Parse(Console.ReadLine());
                             double priceOfRide = taxiTypes[typeOfTransport-1].GetPriceOfRide();
                             Console.WriteLine($"Price of ride on {typeOfTransport} is {priceOfRide}");
-                            Console.WriteLine($"The paymentmethods of {user.Username}, {user.Phone} available are {user.PaymentMethods.ToString()}" + Environment.NewLine +
-                            "Insert the desired way of payment:");
+                            Console.WriteLine($"The paymentmethods of {user.Username}, {user.Phone} available are {user.ToString()}" + Environment.NewLine +
+                            "Insert the desired way of payment (key):");
                             string paymentmethod = Console.ReadLine();
 
                             if (user.PaymentMethods[paymentmethod].IsPaymentPossible(priceOfRide))
@@ -96,8 +99,7 @@ namespace ImplementationOfTaxiApp
                             else
                             {
                                 Console.WriteLine("Lack of money or payment method is not available.");
-                            }
-
+                            }                           
                             break;
                         }
                         

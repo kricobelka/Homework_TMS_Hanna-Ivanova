@@ -64,26 +64,22 @@ namespace ImplementationOfTaxiApp
 
         public double MakePayment(double money)
         {
+            //add exception
             if (AmountOnCard <= 0)
             {
                 Console.WriteLine($"You don't have money on your account. Please top-up");
-                return (double)0;
+                return 0;
             }
             else
             {
                 AmountOnCard -= money;
-                return (double)AmountOnCard;
+                return AmountOnCard;
             }
         }
 
-
-            //public override string ToString()
-            //{
-            //    return StringBuilder.
-            //}
-            //public double Print()
-            //{
-            //    return AmountOnCard;
-            //}
+        public override string ToString()
+        {
+            return AmountOnCard.ToString();
         }
+    }
 }

@@ -26,15 +26,15 @@ namespace ImplementationOfTaxiApp
 
         public void MakeRide(User user)
         {
-            
+            Console.WriteLine($"The request for ride is accepted.");
         }
 
         public override string ToString()
         {
             StringBuilder stringBuilder = new StringBuilder();
 
-            stringBuilder.Append($"Motorbike:\n Statenumber: {StateNumber}\n FuelCOnsumption: {FuelConsumption}\n Brand: {Brand}\n Acceleration:{Acceleration}\n MaxSpeed: {MaxSpeed}");
-            stringBuilder.Append (GetPriceOfRide());
+            stringBuilder.Append($"\nMotorbike:\n Statenumber: {StateNumber}\n FuelCOnsumption: {FuelConsumption}\n Brand: {Brand}\n Acceleration:{Acceleration}\n MaxSpeed: {MaxSpeed}");
+            stringBuilder.Append ($"\nPrice of ride is {GetPriceOfRide()}.");
             return stringBuilder.ToString();
         }
     }

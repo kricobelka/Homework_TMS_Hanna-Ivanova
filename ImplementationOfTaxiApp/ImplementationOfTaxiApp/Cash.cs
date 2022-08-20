@@ -35,7 +35,7 @@ namespace ImplementationOfTaxiApp
         {
             if (CashOnHand < money || CashOnHand <= 0)
             {
-                Console.WriteLine($"Lack of {CashOnHand-money} cash");
+                Console.WriteLine($"Lack of {CashOnHand - money} cash");
                 return 0;
             }
             else
@@ -44,10 +44,9 @@ namespace ImplementationOfTaxiApp
                 return CashOnHand;
             }
         }
-
-        //public double Print()
-        //{
-        //    return CashBase;
-        //}
+        public override string ToString()
+        {
+            return CashOnHand.ToString();
+        }
     }
 }
