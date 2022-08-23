@@ -54,10 +54,7 @@ namespace EmployeesHomework
             }
         }
 
-        public delegate int DelegateCountSalary(Employee employee);
-
-
-        public static void CountSalaryWithDelegate (List<Employee> employeeList, DelegateCountSalary salaryWithDelegate)
+        public static void CountSalaryWithDelegate(List<Employee> employeeList, DelegateCountSalary salaryWithDelegate)
         {
             foreach (var employee in employeeList)
             {
@@ -68,19 +65,7 @@ namespace EmployeesHomework
             }
         }
 
-        DelegateForLambda lambda = (Employee employee) => Console.WriteLine($"{CountSalary(employee)}");
-        public delegate void DelegateForLambda(Employee employee);
-
-
-        public static void CountSalaryWithLambda (List<Employee> employeelist, DelegateForLambda salarywithlambda)
-        {
-            foreach (var employee in employeelist)
-            {
-                int salary = salarywithlambda(employee);
-
-            }
-           
-        }
-
+        public delegate int DelegateCountSalary(Employee employee);
+        //public delegate int DelegateForLambda(Employee employee);
     }
 }

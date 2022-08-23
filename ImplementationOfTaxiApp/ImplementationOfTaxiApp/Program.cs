@@ -49,14 +49,14 @@ namespace ImplementationOfTaxiApp
                             //Console.WriteLine("Please type value of sum you want to top up the card");
                             //double sumOfMoney = double.Parse(Console.ReadLine());
                             //user.AddCard(cardName, new Card(sumOfMoney) { CardNumber = cardNumber});
-                            user.AddCard(cardName, new Card() {CardNumber = cardNumber});
+                            user.AddCard(cardName, new Card());
                             Console.WriteLine($"New card {cardName},{cardNumber} has been added to the user data.");
                             //Console.WriteLine("Please type value of sum you want to top up the card");
                             //double sumOfMoney = double.Parse(Console.ReadLine());
                             //user.ToUpCard(cardName, sumOfMoney);
-                            Console.WriteLine($"Available payment method of {user.Username}, {user.Surname} are:");
+                            Console.WriteLine($"Available payment method of {user.Username}, {user.Surname} are: {user.ToString()}.");
                             //user.ShowAvailableMethods();
-                            user.ToString();
+                            //user.ToString();
                             break;
                         }
 

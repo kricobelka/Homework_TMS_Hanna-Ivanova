@@ -14,36 +14,28 @@ namespace ImplementationOfTaxiApp
         //{
         //    AmountOnCard = amountOnCard;
         //}
+        public double AmountOnCard { get; set; }
+        public double CardNumber { get; set; }
+        //модно и так:
+        //public string CardNumber
+        //{
+        //    get
+        //    {
+        //        return _cardnumber;
+        //    }
+        //    set
+        //    {
 
-        public string CardNumber
-        {
-            get
-            {
-                return _cardnumber;
-            }
-            set
-            {
-                //if (value == "")
-                //{
-                    //Console.WriteLine("Please set your cardnumber");
-                    //_cardnumber = Console.ReadLine();
-                    _cardnumber = value;
+        //        _cardnumber = value;
+        //    }
+        //}
+        //}если хотим чтоб на карте изначально была какая-то сумма:
 
-                //}
-                //else
-                //{
-                //    _cardnumber = value;
-                //}
-            }
-        }
-        public double AmountOnCard
-        {
-            get => _amountOnCard;
-            set
-            {
-                _amountOnCard = value;
-            }
-        }
+        //public double AmountOnCard
+        //{
+        //    get => _amountOnCard;
+        //    set => _amountOnCard = value + 12.5d;
+        //}
 
         public bool IsPaymentPossible(double money)
         {

@@ -6,8 +6,6 @@ namespace ImplementationOfTaxiApp
 {
     internal class User
     {
-        private string _username;
-        private string _surname;
         private string _phone;
         private Dictionary<string, IPaymentMethod> _paymentMethods = new Dictionary<string, IPaymentMethod>();
 
@@ -61,8 +59,6 @@ namespace ImplementationOfTaxiApp
             else
             {
                 Console.WriteLine("You didn't add the card yet.");
-                //PaymentMethods.Add(cardName, Card obj);
-                // можно ил добавить карту в этом методе если ее не существут?
             }
         }
 

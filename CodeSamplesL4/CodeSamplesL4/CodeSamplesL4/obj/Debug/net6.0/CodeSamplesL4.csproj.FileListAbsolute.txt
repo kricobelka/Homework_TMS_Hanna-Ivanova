@@ -1,0 +1,15 @@
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\bin\Debug\net6.0\CodeSamplesL4.exe
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\bin\Debug\net6.0\CodeSamplesL4.deps.json
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\bin\Debug\net6.0\CodeSamplesL4.runtimeconfig.json
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\bin\Debug\net6.0\CodeSamplesL4.dll
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\bin\Debug\net6.0\CodeSamplesL4.pdb
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\obj\Debug\net6.0\CodeSamplesL4.csproj.AssemblyReference.cache
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\obj\Debug\net6.0\CodeSamplesL4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\obj\Debug\net6.0\CodeSamplesL4.AssemblyInfoInputs.cache
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\obj\Debug\net6.0\CodeSamplesL4.AssemblyInfo.cs
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\obj\Debug\net6.0\CodeSamplesL4.csproj.CoreCompileInputs.cache
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\obj\Debug\net6.0\CodeSamplesL4.dll
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\obj\Debug\net6.0\refint\CodeSamplesL4.dll
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\obj\Debug\net6.0\CodeSamplesL4.pdb
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\obj\Debug\net6.0\CodeSamplesL4.genruntimeconfig.cache
+C:\Users\hijik\Downloads\CodeSamplesL4\CodeSamplesL4\CodeSamplesL4\obj\Debug\net6.0\ref\CodeSamplesL4.dll

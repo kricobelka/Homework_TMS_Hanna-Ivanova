@@ -12,7 +12,7 @@ namespace ImplementationOfTaxiApp
         //}
 
         public double CashOnHand { get; set; }
-        //можем ли мы в свойстве установить начальное значение 0? если установим , оно не будет постоянно ноль?
+        
         public double AddMoney(double money)
         {
             CashOnHand += money;
