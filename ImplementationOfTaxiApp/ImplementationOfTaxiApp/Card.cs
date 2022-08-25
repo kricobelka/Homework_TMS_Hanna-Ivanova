@@ -7,13 +7,13 @@ namespace ImplementationOfTaxiApp
 {
     internal class Card : IPaymentMethod
     {
-        private string _cardnumber;
-        private double _amountOnCard;
+        //private string _cardnumber;
+        //private double _amountOnCard;
 
-        //public Card(double amountOnCard)
-        //{
-        //    AmountOnCard = amountOnCard;
-        //}
+        public Card(double amountOnCard)
+        {
+            AmountOnCard = amountOnCard;
+        }
         public double AmountOnCard { get; set; }
         public double CardNumber { get; set; }
         //модно и так:
@@ -29,7 +29,7 @@ namespace ImplementationOfTaxiApp
         //        _cardnumber = value;
         //    }
         //}
-        //}если хотим чтоб на карте изначально была какая-то сумма:
+        //}если хотим чтоб на карту постоянно прибавлялась сумма: 
 
         //public double AmountOnCard
         //{

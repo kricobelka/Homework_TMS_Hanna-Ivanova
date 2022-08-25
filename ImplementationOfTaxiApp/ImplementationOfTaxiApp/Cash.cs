@@ -6,10 +6,10 @@ namespace ImplementationOfTaxiApp
 {
     internal class Cash : IPaymentMethod
     {
-        //public Cash(double cashOnHand)
-        //{
-        //    CashOnHand = cashOnHand;
-        //}
+        public Cash(double cashOnHand)
+        {
+            CashOnHand = cashOnHand;
+        }
 
         public double CashOnHand { get; set; }
         

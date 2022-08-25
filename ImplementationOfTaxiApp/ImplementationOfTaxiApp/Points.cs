@@ -7,13 +7,14 @@ namespace ImplementationOfTaxiApp
     internal class Points : IPaymentMethod
     {
         //private double _pointsOnAccount;
-        //public Points(double pointsOnAccount)
-        //{
-        //    PointsOnAccount = pointsOnAccount;
-        //}
+        public Points(double pointsOnAccount)
+        {
+            PointsOnAccount = pointsOnAccount;
+            //AmountofSum = pointsOnAccount/3;
+        }
         //pointsonaccot initial = 0
 
-        public double AmountofSum { get; set; }
+        //public double AmountofSum { get; set; }
         public double PointsOnAccount { get; set; }
         //public double PointsOnAccount
         //{
@@ -22,13 +23,12 @@ namespace ImplementationOfTaxiApp
         //    {
         //        _pointsOnAccount = value;
         //    }
-        
-        //get;set; - the same as expression abve?
-        
+//get;set; - the same as expression abve?
 
-        public bool IsPaymentPossible(double money)
+
+public bool IsPaymentPossible(double money)
         {
-            if (PointsOnAccount < money / 3 || PointsOnAccount <= 0)
+            if (PointsOnAccount < money * 3 || PointsOnAccount <= 0)
             {
                 return false;
             }
@@ -40,22 +40,20 @@ namespace ImplementationOfTaxiApp
         // сначала пополняются деньги, а щатем делается персчет в баллы?
         public double AddMoney(double money)
         {
-            AmountofSum += money;
-            PointsOnAccount = AmountofSum / 3;
+            PointsOnAccount = PointsOnAccount + money * 3;
             return PointsOnAccount;
         }
 
-        public double MakePayment(double Points)
+        public double MakePayment(double money)
         {
-            if (PointsOnAccount <= 0 || PointsOnAccount < Points / 3)
+            if (PointsOnAccount <= 0 || PointsOnAccount < money * 3)
             {
                 Console.WriteLine("You dont have enough points to pay by points");
-                return 0;
+                throw new ArgumentException("Lack of points");
             }
             else
             {
-                PointsOnAccount -= Points;
-                AmountofSum -= Points * 3;
+                PointsOnAccount -= money * 3;
                 return PointsOnAccount;
             }
         }

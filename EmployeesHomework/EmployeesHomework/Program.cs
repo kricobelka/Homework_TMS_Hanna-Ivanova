@@ -25,11 +25,14 @@ namespace EmployeesHomework
             Employee.CountSalaryWithDelegate(employeelist, CountSalaryWithDelegate1);
 
             Console.WriteLine("\nCount with lambda function:\n");
-            Employee.CountSalaryWithDelegate(employeelist, (employee) => (employee.Experience + 1) * 870);
+            Employee.DelegateCountSalary Mydelegate = (employee) => (employee.Experience + 1) * 870;
+            Employee.CountSalaryWithDelegate(employeelist, Mydelegate);
 
-
+            //Employee.CountSalaryWithDelegate(employeelist, (employee) => (employee.Experience + 1) * 870);
+            //Employee.DelegateCountSalary myDelegate = CountSalaryWithDelegate1;
+            //Employee.CountSalaryWithDelegate(employeelist, myDelegate);
             static int CountSalaryWithDelegate1(Employee employee)
-            {
+            {                                                
                 int salary = 0;
                 if (employee.HigherEducation)
                 {

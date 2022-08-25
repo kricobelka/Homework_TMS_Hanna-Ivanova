@@ -49,7 +49,7 @@ namespace ImplementationOfTaxiApp
                             //Console.WriteLine("Please type value of sum you want to top up the card");
                             //double sumOfMoney = double.Parse(Console.ReadLine());
                             //user.AddCard(cardName, new Card(sumOfMoney) { CardNumber = cardNumber});
-                            user.AddCard(cardName, new Card());
+                            user.AddCard(cardName, new Card(2.5));
                             Console.WriteLine($"New card {cardName},{cardNumber} has been added to the user data.");
                             //Console.WriteLine("Please type value of sum you want to top up the card");
                             //double sumOfMoney = double.Parse(Console.ReadLine());
@@ -106,8 +106,7 @@ namespace ImplementationOfTaxiApp
                     case 4:
                         {
                             Console.WriteLine("You will be get out from the app.");
-                            break;
-                            
+                            break;   
                         }
                     default:
                         {

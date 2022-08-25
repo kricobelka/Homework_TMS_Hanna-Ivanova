@@ -16,9 +16,9 @@ namespace ImplementationOfTaxiApp
             Surname = surname;
             Phone = phone;
             //PaymentMethods = paymentMethods;
-            PaymentMethods.Add("Card", new Card());
-            PaymentMethods.Add("Cash", new Cash());
-            PaymentMethods.Add("Points", new Points());
+            PaymentMethods.Add("Card", new Card(20d));
+            PaymentMethods.Add("Cash", new Cash(19.6d));
+            PaymentMethods.Add("Points", new Points(5));
         }
 
         public string Username { get; set; }
@@ -54,7 +54,7 @@ namespace ImplementationOfTaxiApp
             if (PaymentMethods.ContainsKey(cardName))
             {
                 PaymentMethods[cardName].AddMoney(cardMoney);
-                Console.WriteLine($"Your current balance on {cardName} is {cardMoney}");
+                Console.WriteLine($"The number of points {cardMoney * 3} has been topped up on {cardName}");
             }
             else
             {
