@@ -1,0 +1,82 @@
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\Homework12Serialize\Homework12Serialization\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.csproj.AssemblyReference.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\Homework12Serialize\Homework12Serialization\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\Homework12Serialize\Homework12Serialization\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.AssemblyInfoInputs.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\Homework12Serialize\Homework12Serialization\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.AssemblyInfo.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\Homework12Serialize\Homework12Serialization\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.csproj.CoreCompileInputs.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\Homework12Serialize\Homework12Serialization\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\Homework12Serialize\Homework12Serialization\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.RazorAssemblyInfo.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\Homework12Serialize\Homework12Serialization\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.RazorAssemblyInfo.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\Homework12Serialize\Homework12Serialization\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.dll
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\Homework12Serialize\Homework12Serialization\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.pdb
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.exe
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.deps.json
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.runtimeconfig.json
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.runtimeconfig.dev.json
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.dll
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.pdb
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.Views.dll
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.Views.pdb
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.csproj.AssemblyReference.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.AssemblyInfoInputs.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.AssemblyInfo.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.csproj.CoreCompileInputs.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.RazorAssemblyInfo.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.RazorAssemblyInfo.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\staticwebassets\WebApplicationHW13.StaticWebAssets.Manifest.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.TagHelpers.input.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.TagHelpers.output.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.RazorCoreGenerate.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.RazorTargetAssemblyInfo.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.RazorTargetAssemblyInfo.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.Views.pdb
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.dll
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.pdb
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.genruntimeconfig.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.csproj.CopyComplete
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.exe
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.deps.json
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.runtimeconfig.json
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.runtimeconfig.dev.json
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.dll
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.pdb
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.Views.dll
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\bin\Debug\netcoreapp3.1\WebApplicationHW13.Views.pdb
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.csproj.AssemblyReference.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.AssemblyInfoInputs.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.AssemblyInfo.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.csproj.CoreCompileInputs.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.RazorAssemblyInfo.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.RazorAssemblyInfo.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\staticwebassets\WebApplicationHW13.StaticWebAssets.Manifest.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.TagHelpers.input.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.TagHelpers.output.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.RazorCoreGenerate.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.RazorTargetAssemblyInfo.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.RazorTargetAssemblyInfo.cs
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.Views.pdb
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.dll
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.pdb
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.genruntimeconfig.cache
+C:\Users\hijik\Visual Studio Community\repos\TMS\Homework TMS\Homework_TMS_Hanna-Ivanova\WebApplicationHW13\WebApplicationHW13\obj\Debug\netcoreapp3.1\WebApplicationHW13.csproj.CopyComplete
