@@ -1,0 +1,18 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var fish = ViewBag.FishInformation as Fish[];
+    ViewBag.Title = "Fish information with viewbag:";
+    <span> Fish information:</span>
+    }
+
+    <ul>
+        @foreach (var f in fish)
+        {
+                <li>
+               @("Name: " + f.Name + " Weight: " + f.Weight + " Speed: " + f.Speed)
+                </li>
+        }
+    </ul>
+
