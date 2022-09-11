@@ -47,8 +47,8 @@ namespace HomeworkFishWeb.Controllers
 
         public IActionResult DataTransferByModel()
         {
-            ViewData["Carp"] = "Carp";
-            ViewBag.Ten = "10kg";
+            //ViewData["Carp"] = "Carp";
+            //ViewBag.Ten = "10kg";
             return View(fish);
         }
     }
